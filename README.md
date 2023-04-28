@@ -1,0 +1,24 @@
+eee.html
+import { ThemeOptions } from '@material-ui/core/styles/createMuiTheme';
+
+export const themeOptions: ThemeOptions = {
+  palette: {
+    type: 'light',
+    primary: {
+      main: '#434867',
+    },
+    secondary: {
+      main: '#eaa325',
+    },
+    warning: {
+      main: '#ff6400',
+    },
+  },
+  typography: {
+    fontFamily: 'Source Sans Pro',
+    fontSize: 15,
+    h5: {
+      fontSize: '1.5rem',
+    },
+  },
+};
